@@ -20,7 +20,7 @@ Steps to integerate plugin code onto your Shopify Page:
 where my pagename needs to replaced with your actual page name where you had added plugin code
 
 ->  Next you would need to click on Assets from the left panel and click on 'add new asset' -> click on 'create a blank file' -> change the file name to sublimation-style as to be consistent with the above code that you had pasted few steps back on theme.liquid file. -> now on this new window paste these follow set of code and save now the view would be consistenet with spaces available to left and right of the plugin code data
-""
+"
 .page-width {
   max-width: 85% !important;
   margin: auto !important;
