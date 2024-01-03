@@ -1,0 +1,29 @@
+"These are ways to implement that  I had ffound after looking through a lot of yt videos on how to custom edit shopify theme css as in our case the plugin code gets automatically set to mobile view.
+Steps to integerate plugin code onto your Shopify Page:
+
+1) copy the plugin code from the this url(https://www.augustasportswear.com/freestyle-plug-in-store) and then by scrolling and clicking on ""copy"" button from either ""FreeStyle Sublimation Plug-in Code"" or from ""FreeStyle Headwear Plug-in Code"" 
+
+2)Go to your Shopify Admin Page and to the corresponding page where you want to add Plugin code.
+
+3) Now then click on Add Section Button form Template Section, form the pop menu scroll down to select ""</> Custom Liquid"" Option. A new section with dark blue border would have appeared.
+
+
+4) On the right-most side of the pode there would blank spaced text area having a label or Heading ""Liquid code"". Click on this text-area and press keyboard shortcuts ctrl + v. You would notice that the copied Html code from the first be step be present here now. Click on Save button located few pixels above to this text box. Now you would see the freestyle sublimation cart or freestyle headwear card appear on your page depending upon which plugin-code that you had copied from step 1.
+
+5) You would notice that this takes up the entire width of your current page. So now in-order to be consistent with your other content on your page, you would be needing to add spaces to left and right side. To achieve this click on online store located on the left sidebar -> then click on themes -> here on your current active them just left to customize button click on the three dots -> select edit code -> now search for theme.liquid or theme.liquid.liquid file -> select and on the head section of the Html paste these following set of lines of code 
+""
+    {% if page.url == '/pages/mypagename' %}
+      <link rel=""stylesheet"" type=""text/css"" href=""{{ 'sublimation-styles.css' | asset_url }}"">
+    {% endif %}
+
+
+""
+where my pagename needs to replaced with your actual page name where you had added plugin code
+
+->  Next you would need to click on Assets from the left panel and click on 'add new asset' -> click on 'create a blank file' -> change the file name to sublimation-style as to be consistent with the above code that you had pasted few steps back on theme.liquid file. -> now on this new window paste these follow set of code and save now the view would be consistenet with spaces available to left and right of the plugin code data
+""
+.page-width {
+  max-width: 85% !important;
+  margin: auto !important;
+}
+"
