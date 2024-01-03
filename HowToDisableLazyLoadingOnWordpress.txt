@@ -1,0 +1,27 @@
+Like first of all our Augusta Sportswear Plugin code integeration does not support Lazy loading feature on wordpress domain. So if you still would want to use Lazy loading to optimize your Web page loadind duration
+then we now can explain on how and what steps you need to follow in-order to disable lazy loading with our plugin-code being the lone exception.
+
+Step 1: you need to find out which lazy load plugin you have integerated onto your worpress website. So do go into your wordpress admin settings and then click on plugin tab and view all your installed plugin.
+Hint: Most of the lazy load plugins available on wordpress market store would have lazy load as one of their features on their corresponding plugin description text.
+
+Step 2: Now you need click on the settings Link located just below the PLugin Name and follow the next following steps to disable lazy loading just for the plugin code on this settings menu.
+
+Step 3: There a quiet a few lazy load plugins on wordpress market and they have many different ways to disable lazyloading I will explain the crux on how you need to do this by first of all option for lazy load on  all your Videos and Iframes of your web pages.
+
+Step 4: Many different sites follow ways such disabling Iframe by something called as classes, Iframe Source URL, or By pageURL( Incase your wordpress page only contains this Plugin code and nothing else as content in it ). So let us follow some of the ways in doing them
+
+Step 5: "Incase of your lazyload plugin having a feature to disable by pageUrl" - Here you would need to fill-in the pageName. Exaple on wordpress domain name 'SublimatedApparel.com' which contains only plugin code on a page named 'Sublimation' then You just need to type 
+in the value 'sublimation' on this text box and save (as on your web browser it would have a URL as in this instance SublimatedApparel.com/sublimation where this sublimation the page URL name for your plugin code integeration). Now you could see the plugin apparel items
+get displayed on your page subsequently now when this situation matches if not follow the other following possible steps.
+
+Step 6: "Incase of your lazyload plugin having a feature to disable by Iframe Source URL" - Now you need to paste this url value "https://www.augustasportswear.com/custom-sublimation" on this situation to exempt lazy loading for jsut the plugin code and save to reflect
+changes provided this is your scenario or else follow the next step below.
+
+Step 7: "Incase of your lazyload plugin having a feature to disable by classes or class Name" - Now you need to following custom changes for this to work. You should probably have copied plugin code from our website URL so now you need to add certain piece of texts 
+in-addition to the existion plugin-code. 
+
+a) Paste the plugin-code on a text viewer app such word document or notepad. Then press Ctrl + f and search with text 'myIframe' and hit enter. Here you just need to add these texts class="myIframe".
+
+b) now you need to copy this edited plugin code and paste it onto your wordpress page section and then go the lazyload plugin settings and now you can type the value 'myIframe' to disable this feature and save. Now you have successfully disabled and made plugin code
+integerated to your wordpress website.
+
