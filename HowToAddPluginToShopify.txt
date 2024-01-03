@@ -1,4 +1,3 @@
-"These are ways to implement that  I had ffound after looking through a lot of yt videos on how to custom edit shopify theme css as in our case the plugin code gets automatically set to mobile view.
 Steps to integerate plugin code onto your Shopify Page:
 
 1) copy the plugin code from the this url(https://www.augustasportswear.com/freestyle-plug-in-store) and then by scrolling and clicking on ""copy"" button from either ""FreeStyle Sublimation Plug-in Code"" or from ""FreeStyle Headwear Plug-in Code"" 
