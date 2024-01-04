@@ -1,0 +1,11 @@
+Steps to integerate Plugin-code into squarespace Web page:
+
+1) copy the plugin code from the this url(https://www.augustasportswear.com/freestyle-plug-in-store) and then by scrolling and clicking on "copy" button from either "FreeStyle Sublimation Plug-in Code" or from "FreeStyle Headwear Plug-in Code" 
+
+2)Go to your Square space Admin Page and to the corresponding page where you want to add Plugin code by clicking on Website -> the page Name from Main Navigation selection ->  Edit on from the Header section. 
+
+3) Now then click on Add Section Button form Template Section, form the pop menu scroll down to select "Add Blank section" Option.
+
+4) Resize your layout width by dragging the left and right edges of the highlighted section.
+
+5) Now click Add Block -> Embed -> then Resizing the embed block Highlited section. Either double click or click on edit icon -> Click on Code Snippet Tab -> Embed data -> Paste the Plugin code from copied from our Augustasportwear URL by replacing the Add code... -> CLick on save and Exit. After hosting your website you have now successfully added your plugin code integeration
